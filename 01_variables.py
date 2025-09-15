@@ -11,18 +11,10 @@ print("You are " + age + " years old.")
 
 hobby = input("What's your favorite hobby? ")
 food = input("What's your favorite food? ")
-#\n used for next line.
-print("\nSummary of your responses:")
-print("- Name: " + name)
-print("- Age: " + age)
-print("- Hobby: " + hobby)
-print("- Favorite Food: " + food)
+#veriables
+name="saniya"# string
+age=20 #integer
+marks=58.20 #float
+print("my name is":name,)
 
-# next topic Conditional statement
-if int(age) < 18:
-    print("Wow, you're quite young and already coding!")
-else:
-    print("That's awesome! It's never too late to learn.")
 
-# f-string applied
-print(f"\n{name}, imagine coding while enjoying {food} and thinking about {hobby} 😄")
